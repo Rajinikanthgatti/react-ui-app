@@ -1,1 +1,1 @@
-This is an react-app with animated UI.
+React app with animated UI.
