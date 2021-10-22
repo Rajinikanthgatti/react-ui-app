@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components'
 import background from '../img/bg.svg'
+import HeaderContent from './HeaderContent';
 import Navigation from './Navigation';
 
 export default class Header extends Component {
@@ -9,6 +10,7 @@ export default class Header extends Component {
             <HeaderStyled>
                 <div className="header-content">
                     <Navigation></Navigation>
+                    <HeaderContent/>
                 </div>
             </HeaderStyled>
         )
