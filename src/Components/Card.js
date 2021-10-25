@@ -60,7 +60,7 @@ export default function Card({
             </div>
         </CardStyleAnimate>
     )
-}
+} 
 const CardStyleAnimate = styled.div`
     background-color: #fff;
     padding: 0 1em;
