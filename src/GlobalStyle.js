@@ -25,5 +25,13 @@ const GlobalStyle = createGlobalStyle`
         color: inherit;
         font-size: 1.2em;
     }
+    p{
+        color: var(--lavender-secondary);
+    }
+    .secondary-heading{
+        font-size: 2.25em;
+        color: var(--purple-primary);
+        line-height: 1.8em;
+    }
 `;
 export default GlobalStyle;
