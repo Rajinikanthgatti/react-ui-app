@@ -33,5 +33,13 @@ const GlobalStyle = createGlobalStyle`
         color: var(--purple-primary);
         line-height: 1.8em;
     }
+    .small-heading{
+        font-size: 2.5em;
+        color: var(--purple-primary);
+        text-align: center;
+    }
+    span{
+        color: var(--accent-pink);
+    }
 `;
 export default GlobalStyle;
