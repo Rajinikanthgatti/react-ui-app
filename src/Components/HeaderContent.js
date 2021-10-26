@@ -56,17 +56,45 @@ const HeaderContentStyled = styled.div`
             position: absolute;
             right: 0;
             bottom: 10%;
+            animation: rotate 2s infinite;
         }
         .message1{
             position: absolute;
             top: 0;
             right: 0;
             left: auto;
+            animation: move 5s infinite;
+            transition: all .4s ease-in-out;
         }
         .message2{
             position: absolute;
             bottom: 15%;
             left: 0;
+            animation: move 5s infinite;
+            transition: all .4s ease-in-out;
+        }
+    }
+
+    .message1{
+        @keyframes move{
+            0%{
+                transform: translateY(0) rotate(0deg) scale(1) translateX(0);
+            }
+            50%{
+                transform: translateY(-10px) rotate(20deg) scale(1.1) translateX(10px);
+            }
+            100%{
+                transform: translateY(0) rotate(0deg) scale(1) translateX(0);
+            }
+        }
+        @keyframes rotate{
+            0%{
+                transform: rotate(0deg);
+            }
+          
+            100%{
+                transform: rotate(360deg);
+            }
         }
     }
 `;

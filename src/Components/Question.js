@@ -28,6 +28,7 @@ const QuestionAnimated = styled.div`
     padding: 1em 1em;
     border-radius: 1em;
     transition: all .4s ease-in-out;
+    box-shadow: 0px 25px 50px rgba(22, 25, 79, 0.05);
     h4{
         color: #16194F;
         transition: all .4s ease-in-out;
