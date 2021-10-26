@@ -21,7 +21,7 @@ const GlobalStyle = createGlobalStyle`
         color: #fff;
     }
     body{
-        background-color: var(--neutral-light)
+        background-color: var(--neutral-light);
         color: inherit;
         font-size: 1.2em;
     }
@@ -40,6 +40,9 @@ const GlobalStyle = createGlobalStyle`
     }
     span{
         color: var(--accent-pink);
+    }
+    .c-para{
+        text-align: center;
     }
 `;
 export default GlobalStyle;

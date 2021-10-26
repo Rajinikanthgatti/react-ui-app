@@ -63,7 +63,7 @@ export default function Card({
 } 
 const CardStyleAnimate = styled.div`
     background-color: #fff;
-    padding: 0 1em;
+    padding: 0.25em 1em;
     border-radius: 2em;
     margin: 0 1em;
     box-shadow: 0px 25px 50px rgb(60 60 60 / 37%);
