@@ -37,4 +37,8 @@ const NavigationStyled = styled.nav`
         justify-content: space-between;
         width: 40%;
     }
+    @media (min-width: 320px) and (max-width: 480px) {
+        width: 100%;
+        padding: 1em;
+    }
 `;

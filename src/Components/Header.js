@@ -27,4 +27,9 @@ const HeaderStyled = styled.header`
     .header-content{
         padding: 0 10em;
     }
+    @media (min-width: 320px) and (max-width: 480px) {
+        .header-content{
+            padding: 0;
+        }
+      }
 `;

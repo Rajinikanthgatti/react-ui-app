@@ -97,4 +97,32 @@ const HeaderContentStyled = styled.div`
             }
         }
     }
+    @media (min-width: 320px) and (max-width: 480px) {
+        width: 100%;
+        padding: 1em;
+        display: inline-block;
+        align-items: center;
+        text-align: center;
+        .left-content{
+            max-width: none;
+            padding: 0;
+            .content-text{
+                padding: 0;
+            }
+            button {
+                display: inline-block;
+                margin-top: 1em;
+            }
+        }
+        .right-content{
+            display: inline-block;
+            .phoone{
+                width: 100%;
+                margin-left: 1.75em;
+            }
+            img{
+                width: 25%;
+            }
+        }
+    }
 `;

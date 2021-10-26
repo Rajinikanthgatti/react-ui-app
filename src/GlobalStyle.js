@@ -19,11 +19,16 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'Nunito', sans-serif;
         text-decoration: none;
         color: #fff;
+        position: relative;
+    }
+    html{
+        overflow-x: hidden;
     }
     body{
         background-color: var(--neutral-light);
         color: inherit;
         font-size: 1.2em;
+        overflow-x: hidden;
     }
     p{
         color: var(--lavender-secondary);
