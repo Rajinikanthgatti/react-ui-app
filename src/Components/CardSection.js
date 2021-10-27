@@ -39,4 +39,24 @@ const CardSectionStyled = styled.section`
             padding: 1em 0;
         }
     }
+    @media (min-width: 320px) and (max-width: 765px) {
+        .card-container{
+            align-items: center;
+            text-align: center;
+            display: inline-block;
+            width: 100%;
+        }
+        .card-left, .card-right{
+            width: 100%;
+            align-items: center;
+            text-align: center;
+            display: inline-block;
+            img{
+                width: 100%;
+            }
+            h2{
+                line-height: 1.2em;
+            }
+        }
+    }
 `;

@@ -57,6 +57,28 @@ const ChartSectionStyled = styled.section`
             padding: 1.3em 0;
         }
     }
+    @media (min-width: 320px) and (max-width: 765px) {
+        .chart-container{
+            display: inline-block;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+            padding: 0 1em;
+        }
+        .chart-left{
+            width: 100%;
+        }
+        .chart-right{
+            width: 100%;
+            padding: 0;
+            h2{
+                line-height: 1.2em;
+            }
+            button{
+                margin: 0 auto;
+            }
+        }
+    }
 `;
 
 export default ChartSection;

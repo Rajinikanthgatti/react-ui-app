@@ -58,7 +58,7 @@ const MessagingSectionAnimated = styled.section`
         .bgCircle{
             position: absolute;
             top: -8%;
-            left: -8%
+            left: 0;
         }
         .m-para{
             padding: 2em 0;
@@ -74,6 +74,30 @@ const MessagingSectionAnimated = styled.section`
             bottom: 0;
             right: 0;
             z-index: -1em;
+        }
+    }
+    @media (min-width: 320px) and (max-width: 765px) {{
+        .messaging-content{
+            display: inline-block;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+            padding: 0 1em;
+            .left-items{
+                padding: 0;
+                .secondary-heading{
+                    line-height: 1.2em;
+                }
+            }
+            .right-items{
+                display: inline-block;
+                text-align: center;
+                align-items: center;
+                padding-top: 2em;
+                .messaging{
+                    width: 100%;
+                }
+            }
         }
     }
 `;

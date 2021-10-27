@@ -74,5 +74,25 @@ const FooterStyled = styled.div`
             padding-top: 0;
         }
     }
-
+    @media (min-width: 320px) and (max-width: 765px) {
+        padding: 0 1em;
+        .footer-con{
+            display: inline-block;
+            text-align: center;
+            align-items: center;
+            width: 100%;
+            .logo-con{
+                margin: 0;
+                img{
+                    padding: 1em;
+                }
+                p{
+                    padding-bottom: 1em;
+                }
+            }
+            .links1, .links2, .links3{
+                margin: 0;
+            }
+        }
+    }
 `;

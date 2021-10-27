@@ -121,4 +121,18 @@ const CardStyleAnimate = styled.div`
             color: #B7B7B7
         }
     }
+    @media (min-width: 320px) and (max-width: 765px) {{
+        max-width: 100%;
+        margin: 1em 0;
+        .list-con{
+            text-align: left;
+        }
+    }
+    @media (min-width: 481px) and (max-width: 765px) {
+        max-width: 45%;
+        margin: 1em;
+        button{
+            padding: .25em;
+        }
+    }
 `;

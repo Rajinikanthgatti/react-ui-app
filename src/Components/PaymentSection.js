@@ -12,7 +12,7 @@ export default function PaymentSection() {
     return (
         <PaymentSectionAnimated>
             <InnerLayout>
-                <div>
+                <div className="payment-con">
                     <h3 className="small-heading">An exceptional service, <span>at the right price</span></h3>
                     <p className="c-para">Start with our free plan and switch to premium as you grow.</p>
                     <div className="card-con">
@@ -70,5 +70,32 @@ const PaymentSectionAnimated = styled.section`
     }
     .c-para{
         text-align: center;
+    }
+    @media (min-width: 320px) and (max-width: 480px) {
+        .payment-con{
+            padding: 0 1em;
+            .small-heading{
+                line-height: 1.2em;
+            }
+            .card-con{
+                display: inline-block;
+                width: 100%;
+                text-align: center;
+                align-items: center;
+            }
+
+        }  
+    }
+    @media (min-width: 481px) and (max-width: 765px) {
+        .payment-con{
+            width: 100%;
+            padding: 0 1em;
+            .small-heading{
+                line-height: 1.2em;
+            }
+            .card-con{
+                width: 100%;
+            }
+        }
     }
 `;

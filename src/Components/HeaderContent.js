@@ -97,7 +97,7 @@ const HeaderContentStyled = styled.div`
             }
         }
     }
-    @media (min-width: 320px) and (max-width: 480px) {
+    @media (min-width: 320px) and (max-width: 765px) {
         width: 100%;
         padding: 1em;
         display: inline-block;

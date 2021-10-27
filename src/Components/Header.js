@@ -27,9 +27,10 @@ const HeaderStyled = styled.header`
     .header-content{
         padding: 0 10em;
     }
-    @media (min-width: 320px) and (max-width: 480px) {
+    @media (min-width: 320px) and (max-width: 765px) {
         .header-content{
             padding: 0;
+            width: 100%;
         }
       }
 `;
